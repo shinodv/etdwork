@@ -23,8 +23,8 @@ if [[ -e w3.css ]] ; then
     wget "https://www.w3schools.com/w3css/4/w3.css"
     
     if [[ $? -ne 0 ]] ; then 
-        echo "La descarga de la hoja de estilo ha sido errónea"
-        echo "Se detiene la ejecución"
+        echo " Error en la descarga."
+        echo "Detenida la ejecución."
         exit 1
     fi
 fi
